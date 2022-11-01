@@ -37,6 +37,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DE987202911C22D005B5130 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5DF69F782911B2540062E6D8 /* AppDelegate.swift */,
+				5DF69F7A2911B2540062E6D8 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5DE987212911C235005B5130 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DE987222911C23B005B5130 /* Launch */,
+				5DF69F812911B2560062E6D8 /* Assets.xcassets */,
+				5DF69F862911B2560062E6D8 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DE987222911C23B005B5130 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				5DF69F832911B2560062E6D8 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		5DE987232911C244005B5130 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5DF69F7E2911B2540062E6D8 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5DE987242911C24A005B5130 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5DF69F7C2911B2540062E6D8 /* ViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		5DF69F6C2911B2540062E6D8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +99,10 @@
 		5DF69F772911B2540062E6D8 /* Bull's Eye */ = {
 			isa = PBXGroup;
 			children = (
-				5DF69F782911B2540062E6D8 /* AppDelegate.swift */,
-				5DF69F7A2911B2540062E6D8 /* SceneDelegate.swift */,
-				5DF69F7C2911B2540062E6D8 /* ViewController.swift */,
-				5DF69F7E2911B2540062E6D8 /* Main.storyboard */,
-				5DF69F812911B2560062E6D8 /* Assets.xcassets */,
-				5DF69F832911B2560062E6D8 /* LaunchScreen.storyboard */,
-				5DF69F862911B2560062E6D8 /* Info.plist */,
+				5DE987202911C22D005B5130 /* App */,
+				5DE987242911C24A005B5130 /* Scenes */,
+				5DE987232911C244005B5130 /* UI */,
+				5DE987212911C235005B5130 /* Resources */,
 			);
 			path = "Bull's Eye";
 			sourceTree = "<group>";
@@ -289,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Bull's Eye/Info.plist";
+				INFOPLIST_FILE = "Bull's Eye/Resources/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -322,7 +362,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Bull's Eye/Info.plist";
+				INFOPLIST_FILE = "Bull's Eye/Resources/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
