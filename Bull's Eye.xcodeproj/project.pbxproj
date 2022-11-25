@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D78B61A292F7D0E00F4BBBE /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 5D78B619292F7D0E00F4BBBE /* BullsEye.html */; };
+		5DD5F96F2926BDEF00AF35EF /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD5F96E2926BDEF00AF35EF /* AboutViewController.swift */; };
 		5DF69F792911B2540062E6D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF69F782911B2540062E6D8 /* AppDelegate.swift */; };
 		5DF69F7B2911B2540062E6D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF69F7A2911B2540062E6D8 /* SceneDelegate.swift */; };
 		5DF69F7D2911B2540062E6D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF69F7C2911B2540062E6D8 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D78B619292F7D0E00F4BBBE /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		5DD5F96E2926BDEF00AF35EF /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		5DF69F752911B2540062E6D8 /* Bull's Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bull's Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF69F782911B2540062E6D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DF69F7A2911B2540062E6D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D78B618292F7CFC00F4BBBE /* WebSources */ = {
+			isa = PBXGroup;
+			children = (
+				5D78B619292F7D0E00F4BBBE /* BullsEye.html */,
+			);
+			path = WebSources;
+			sourceTree = "<group>";
+		};
 		5DE987202911C22D005B5130 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -49,6 +61,7 @@
 		5DE987212911C235005B5130 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5D78B618292F7CFC00F4BBBE /* WebSources */,
 				5DE987222911C23B005B5130 /* Launch */,
 				5DF69F812911B2560062E6D8 /* Assets.xcassets */,
 				5DF69F862911B2560062E6D8 /* Info.plist */,
@@ -76,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				5DF69F7C2911B2540062E6D8 /* ViewController.swift */,
+				5DD5F96E2926BDEF00AF35EF /* AboutViewController.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -166,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DF69F852911B2560062E6D8 /* LaunchScreen.storyboard in Resources */,
+				5D78B61A292F7D0E00F4BBBE /* BullsEye.html in Resources */,
 				5DF69F822911B2560062E6D8 /* Assets.xcassets in Resources */,
 				5DF69F802911B2540062E6D8 /* Main.storyboard in Resources */,
 			);
@@ -180,6 +195,7 @@
 			files = (
 				5DF69F7D2911B2540062E6D8 /* ViewController.swift in Sources */,
 				5DF69F792911B2540062E6D8 /* AppDelegate.swift in Sources */,
+				5DD5F96F2926BDEF00AF35EF /* AboutViewController.swift in Sources */,
 				5DF69F7B2911B2540062E6D8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -310,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -330,13 +346,15 @@
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bull's Eye/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bull's Eye";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,13 +381,15 @@
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bull's Eye/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bull's Eye";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.trivia-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
